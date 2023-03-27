@@ -1,0 +1,21 @@
+
+.form-main{
+    margin: 1.5rem;
+    font-size : 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+input{
+    border: none;
+    display: inline-block;
+    padding: 0.2rem;
+    margin-left: 0.5rem;
+    border-radius: 0.6rem;
+    background-color: #D6ED17FF;
+    transition: all ease-in  0.7s;
+}
+
+input:focus{
+    width: 12.5rem;
+}

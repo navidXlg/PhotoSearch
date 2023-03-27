@@ -4,14 +4,14 @@ const searchImg = async(item)=>{
 
    const info = await axios.get("https://api.unsplash.com/search/photos", {
         headers:{
-            Authorization : " Client-ID"
+            Authorization : " Client-ID 2XM9bsVv6Fd3KzNlpKsz1pt-hJCCAGyTmJAb19nyRTU"
         },
         params:{
             query : item
         }
     });
 
-    return info;
+    return info.data.results;
 };
 
 export default searchImg;
