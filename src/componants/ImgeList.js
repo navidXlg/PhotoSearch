@@ -1,10 +1,10 @@
 import ImgeShow from './ImgeShow';
+import "./ImgeList.css";
 
 export default function Imgelist({imges}){
-    console.log(imges)
-    return <>
+    return <div className='img-list'>
               {
                 imges.map(item => <ImgeShow key={item.id} img={item} />)
               }
-           </>
+           </div>
 };

@@ -1,0 +1,10 @@
+
+
+.img-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    padding: 0 2.5rem;
+}
