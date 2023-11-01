@@ -1,13 +1,10 @@
 import ImgeShow from './ImgeShow';
 
-function Imgelist({imeges}){
-
-    const imge = (item)=>{
-
-        return <ImgeShow key={item.id} img={item}/>
-    };
-
-    return <div>{imge}</div>
+export default function Imgelist({imges}){
+    console.log(imges)
+    return <>
+              {
+                imges.map(item => <ImgeShow key={item.id} img={item} />)
+              }
+           </>
 };
-
-export default Imgelist
